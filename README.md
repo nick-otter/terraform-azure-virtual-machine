@@ -52,4 +52,10 @@ Here are some of the results of running `terraform apply` in the Azure console.
 
 #### Azure Virtual Machine created 
 ![Azure Virtual Machines](images/Azure%20Virtual%20Machines.png)
+ 
+Here is the result of `ssh` to the Azure Virtual Machine.
+
+#### SSH to Azure Virtual Machine 
+
+![SSH to Azure Virtual MAchine](images/SSH_to_Azure_Virtual_Machine_(hiddenIP).png)
 

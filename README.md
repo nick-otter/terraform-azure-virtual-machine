@@ -39,3 +39,17 @@ As I haven't used Azure before, I have highlighted parts of the process to spin 
 - Assigning `os_profile_linux_config` `ssh_key`. In AWS I did this via [`user data`](https://github.com/UKHomeOffice/dq-tf-dataingest/blob/master/main.tf) with AWS parameter store and base64 decryption. Perhaps there was a better option.
   <br> <br>Do you have to provision the public key and then go to the console to download the private key for the Virtual Machine?
   <br><br> Can you assign your own public key? Does it format it correctly to path?
+  
+## Images
+
+Here are some of the results of running `terraform apply` in the Azure console. 
+
+#### Azure Resource Group created
+![Azure Resources](images/Azure%20Resource%20Groups.png)
+
+#### Azure Virtual Network created
+![Azure Virtual Network](images/Azure%20Virtual%20Networks.png)
+
+#### Azure Virtual Machine created 
+![Azure Virtual Machines](images/Azure%20Virtual%20Machines.png)
+

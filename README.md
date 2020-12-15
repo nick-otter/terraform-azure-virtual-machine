@@ -2,7 +2,7 @@
 
 # Terraform Azure Virtual Machine
 
-Terraform code to spin up a simple Linux Ubuntu Azure Virtual Machine with:
+Terraform code to spin up an Azure vm with:
 - an open security group (all TCP traffic allowed on port 22).
 - One user. 
 
